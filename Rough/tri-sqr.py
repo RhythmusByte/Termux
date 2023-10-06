@@ -1,6 +1,6 @@
 def main ():
   # To print a triangle
-  pront('   *')
+  print('   *')
   print('  ***')
   print(' *****')
   print('*******')
