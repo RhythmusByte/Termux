@@ -1,2 +1,1 @@
-print('Hello World\n\tWelcome to the 
-\n\t\tWorld of Programming...!')
+print('Hello World\n\tWelcome to the\n\t\tWorld of Programming...!')
