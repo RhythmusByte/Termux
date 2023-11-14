@@ -41,32 +41,35 @@ print("{} and {} are alphabets".format("a","b"))
 
 
 
+# String Traversal
 
-# Output
-# Python is amazing
-# y
-# g
-# gnizama si nohtyP
-# 
-# azi
-# Python is amazing
-# Python is amazing
-# Python is amazingPython is amazing
-# True
-# False
-# Python is my 1 st preference
-# 17
-# Python is amazing
-# Python Is Amazing
-# 1
-# 7
-# 7
-# python is amazing
-# python is amazing
-# False
-# False
-# ('Python ', 'is', ' amazing')
-# Python is amazing
-# Python is fantastic
-# ['Python is amazing']
-# a and b are alphabets
+var="hello"
+for i in var:
+    print(i)
+    
+    
+print("\n")
+
+    
+var="RhythmusByte"
+i=0
+while(i < len(var)):
+    letter=var[i]
+    print(letter)
+    i=i+1
+    
+    
+print('\n')
+
+
+# String Search
+
+def searchstr(str,ch):
+    index=0
+    while index < len(str):
+        if str[index]==ch:
+            return index
+        index=index+1          
+    return -1
+a=searchstr("hello","e")
+print(a)
