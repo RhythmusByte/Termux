@@ -10,6 +10,6 @@ def find_location(phone_number):
         return "Invalid phone number"
 
 # Example usage
-phone_number = "+919778062036"
+phone_number = "" # Number with country code
 location = find_location(phone_number)
 print(f"The location of {phone_number} is: {location}")
