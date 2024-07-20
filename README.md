@@ -1,6 +1,6 @@
 # Topic: Restaurant Reservation & Management 
 
- The project is a restaurant reservation and management website. It has mainly three sides: the owner side, employees side and the customer side. The project will be a eleven phase project with additional optional phases. 
+ The project is a restaurant reservation and management website. It has mainly three sides: the owner side, employees side and the customer side. 
 
 > Nb: This is just a prototype plan, some of the features might not be in the actual project and also maybe some new features will be added. 
 
@@ -35,7 +35,7 @@
 - MongoDB
 - GitHub 
 - Cloudinary
----
+<!--
 ## Project Phases 
 ### Phase 1
 - Project Structure Creation 
@@ -103,4 +103,7 @@
 - Payment verification page
 - Reply to the customer reviews 
 - Analysis of Daily, Weekly and Monthly reservations
+
+-->
+
 
