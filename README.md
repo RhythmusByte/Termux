@@ -17,7 +17,7 @@ We are planned to use **React.JS** for the front-end, by utilizing the React.JS 
 - Python Django
 - MongoDB or Firebase
 - Cloudinary
-- Vercel or Netlify
+- Vercel
 - GitHub
 
 > Nb: Even though we are utilizing GitHub, currently we are not not planned to make it an open-source project. 
