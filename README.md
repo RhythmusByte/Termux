@@ -1,2 +1,2 @@
 # Termux
-This repository contains my termux configuration and bash files.
+This repository contains bash scripts that I used for **Termux**.
