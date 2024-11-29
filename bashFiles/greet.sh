@@ -3,13 +3,14 @@
 name="Akhil"
 userName="rhythmusbyte"
 up=$(uptime -p)
-today=$(date +%d-%m-%Y)
+date=$(date +%d-%m-%Y)
 
 echo "|---------------------------|"
 echo "|-       Hello $name       -|"
 echo "|-   Welcome to Termux :)  -|"
 echo "|---------------------------|"
-
-echo "Today: $today"
-echo "Uptime: $up"
+echo "|-   User: $userName    -|"
+echo "|-   Date: $date      -|"
+# echo "|-   Uptime: $up"
+echo "|---------------------------|"
 echo " "
