@@ -5,13 +5,11 @@ userName="rhythmusbyte"
 up=$(uptime -p)
 today=$(date +%d-%m-%Y)
 
-cat << EOF
-|---------------------------|
-|-       Hello $name       -|
-|-   Welcome to Termux :)  -|
-|---------------------------|
+echo "|---------------------------|"
+echo "|-       Hello $name       -|"
+echo "|-   Welcome to Termux :)  -|"
+echo "|---------------------------|"
 
-Today: $today
-Up: $up
-EOF
+echo "Today: $today"
+echo "Uptime: $up"
 echo " "
