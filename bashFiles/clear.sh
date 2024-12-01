@@ -1,0 +1,3 @@
+clear
+
+echo "Screen Cleared!!"
