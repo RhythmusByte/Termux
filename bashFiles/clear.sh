@@ -1,3 +1,0 @@
-clear
-
-echo "Screen Cleared!!"
