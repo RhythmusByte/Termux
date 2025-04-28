@@ -53,3 +53,6 @@ alias ins='apt install -y'
 alias rem='apt remove -y'  
 alias clean='apt autoremove && apt clean'  
 alias py=python
+
+# Start XFCE4 Desktop
+alias desk='bash /data/data/com.termux/files/home/scripts/startdesktop.sh'
