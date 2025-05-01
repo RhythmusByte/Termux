@@ -1,6 +1,6 @@
 # Aliases  
 alias aria="aria2c -d /data/data/com.termux/files/home/storage/shared/Movies"  
-# alias gg='/data/data/com.termux/files/home/git/termux/git_sync.sh'  
+alias gg='/data/data/com.termux/files/home/scripts/git_sync.sh'  
 # alias gi='bash  /data/data/com.termux/files/home/scripts/git.sh'  
 alias cl='clear'  
 # alias mail='python /data/data/com.termux/files/home/scripts/mail.py'  
