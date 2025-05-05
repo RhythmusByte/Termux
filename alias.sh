@@ -50,5 +50,6 @@ alias py=python
 
 # Start XFCE4 Desktop
 alias desk='bash /data/data/com.termux/files/home/scripts/startdesktop.sh'
-alias xf='bash ~/scripts/start-xfce.sh'
-alias stxf='bash ~/scripts/stop-xfce.sh'
+# alias xf='bash ~/scripts/start-xfce.sh'
+# alias stxf='bash ~/scripts/stop-xfce.sh'
+alias xf="~/scripts/cleanupx11.sh && termux-x11 :0 -xstartup 'dbus-launch --exit-with-session xfce4-session' &"
