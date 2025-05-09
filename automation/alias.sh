@@ -1,9 +1,9 @@
 # Aliases  
 alias aria="aria2c -d /data/data/com.termux/files/home/storage/shared/Movies"  
-alias gg='/data/data/com.termux/files/home/scripts/git_sync.sh'  
+alias gg='~/scripts/git_sync.sh'
 alias cl='clear'  
 alias x='exit'  
-alias upd='bash /data/data/com.termux/files/home/git/termux/termux_updation.sh'
+alias upd='pku'
 alias pku='pkg update && pkg upgrade -y'  
 alias ga='git add .'  
 alias gs='git status'  
@@ -36,7 +36,7 @@ alias xx='chmod +x'
 alias rel='termux-reload-settings'  
 alias weather='curl wttr.in/ramanattukara'  
 alias pst='termux-clipboard-get'  
-# alias pdl='proot-distro login debian --user rhythmusbyte' 
+alias pdlu='proot-distro login debian --user rhythmusbyte' 
 alias pdl='proot-distro login debian'
 alias du='du -h --max-depth=1'  
 alias df='df -h'  
@@ -49,7 +49,7 @@ alias clean='apt autoremove && apt clean'
 alias py=python
 
 # Start XFCE4 Desktop
-alias desk='bash /data/data/com.termux/files/home/scripts/startdesktop.sh'
+# alias desk='bash /data/data/com.termux/files/home/scripts/startdesktop.sh'
 # alias xf='bash ~/scripts/start-xfce.sh'
 # alias stxf='bash ~/scripts/stop-xfce.sh'
-alias xf="~/scripts/cleanupx11.sh && termux-x11 :0 -xstartup 'dbus-launch --exit-with-session xfce4-session' &"
+# alias xf="~/scripts/cleanupx11.sh && termux-x11 :0 -xstartup 'dbus-launch --exit-with-session xfce4-session' &"
