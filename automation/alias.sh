@@ -1,6 +1,6 @@
 # Aliases  
-alias aria="aria2c -d /data/data/com.termux/files/home/storage/shared/Movies"  
-alias gg='~/scripts/git_sync.sh'
+alias aria="aria2c -d ~/storage/shared/Movies"  
+alias gg='~/git/termux/automation/git_sync.sh'
 alias cl='clear'  
 alias x='exit'  
 alias upd='pku'
