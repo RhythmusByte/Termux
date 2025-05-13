@@ -1,3 +1,3 @@
 clear
 
-lolcat /data/data/com.termux/files/home/scripts/ascii.txt -a -d 3
+lolcat ~/git/termux/startup//ascii.txt -a -d 3
