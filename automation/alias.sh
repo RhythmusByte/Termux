@@ -1,5 +1,5 @@
 # Aliases  
-alias desk='tx11start --nogpu --nodbus'
+alias desk='tx11start --nodbus'
 alias aria="aria2c -d ~/storage/shared/Movies"  
 alias gg='~/git/termux/automation/git_sync.sh'
 alias cl='clear'  
